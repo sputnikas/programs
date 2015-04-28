@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1414314516 source:e:\all\c++\lab2_for_mm_in_pmt\main.cpp
+	"main.h"
+
+1414307256 e:\all\c++\lab2_for_mm_in_pmt\main.h
+	<stdio.h>
+	<math.h>
+	<windows.h>
+	"sde.h"
+
+1414309923 e:\all\c++\lab2_for_mm_in_pmt\include\sde.h
+	<stdio.h>
+	<math.h>
+	<string.h>
+
+1414316167 source:e:\all\c++\lab2_for_mm_in_pmt\src\sde.cpp
+	"sde.h"
+
+1414309923 e:\all\c++\lab2_for_mm_in_pmt\include\\sde.h
+	<stdio.h>
+	<math.h>
+	<string.h>
+

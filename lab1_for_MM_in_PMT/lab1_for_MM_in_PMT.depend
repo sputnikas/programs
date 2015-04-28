@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1412187320 source:e:\all\c++\lab1_for_mm_in_pmt\main.cpp
+	"main.h"
+
+1412013230 e:\all\c++\lab1_for_mm_in_pmt\main.h
+	<stdio.h>
+	<math.h>
+	<windows.h>
+	"Integrate.h"
+
+1411886897 e:\all\c++\lab1_for_mm_in_pmt\include\matrix.h
+	<iostream>
+	<string>
+	<sstream>
+	<math.h>
+
+1413282203 source:e:\all\c++\lab1_for_mm_in_pmt\src\integrate.cpp
+	"Integrate.h"
+
+1413260316 e:\all\c++\lab1_for_mm_in_pmt\include\integrate.h
+	<iostream>
+	<string>
+	<sstream>
+	<math.h>
+	<ctime>
+	<ratio>
+	<chrono>
+

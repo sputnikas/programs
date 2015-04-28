@@ -1,0 +1,456 @@
+# depslib dependency file v1.0
+1415858232 source:e:\all\c++\lab3_for_mm_in_pmt\main.cpp
+	"main.h"
+
+1415703813 e:\all\c++\lab3_for_mm_in_pmt\main.h
+	<stdio.h>
+	<math.h>
+	<windows.h>
+	<string.h>
+	<stdlib.h>
+	"pde.h"
+
+1415859265 e:\all\c++\lab3_for_mm_in_pmt\include\pde.h
+	<stdio.h>
+	<math.h>
+
+1407406670 e:\compilers\library\mathgl-2.3\include\mgl2\mgl.h
+	"mgl2/mgl_cf.h"
+	"mgl2/data.h"
+	"mgl2/datac.h"
+
+1390362738 e:\compilers\library\mathgl-2.3\include\mgl2\mgl_cf.h
+	<mgl2/data.h>
+	<mgl2/datac.h>
+	<mgl2/base_cf.h>
+	<mgl2/data_cf.h>
+	<mgl2/datac_cf.h>
+	<mgl2/cont.h>
+	<mgl2/fit.h>
+	<mgl2/plot.h>
+	<mgl2/surf.h>
+	<mgl2/volume.h>
+	<mgl2/vect.h>
+	<mgl2/prim.h>
+	<mgl2/other.h>
+	<mgl2/canvas_cf.h>
+	<mgl2/addon.h>
+
+1406923997 e:\compilers\library\mathgl-2.3\include\mgl2\data.h
+	"mgl2/data_cf.h"
+	"mgl2/pde.h"
+	<vector>
+	<string>
+
+1406923997 e:\compilers\library\mathgl-2.3\include\mgl2\data_cf.h
+	"mgl2/abstract.h"
+	<gsl/gsl_vector.h>
+	<gsl/gsl_matrix.h>
+
+1406923997 e:\compilers\library\mathgl-2.3\include\mgl2\abstract.h
+	"mgl2/define.h"
+	<string>
+	"mgl2/type.h"
+
+1407406670 e:\compilers\library\mathgl-2.3\include\mgl2\define.h
+	"mgl2/config.h"
+	"mgl2/dllexport.h"
+	<omp.h>
+	<zlib.h>
+	<stdint.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<wchar.h>
+	<float.h>
+	<math.h>
+	<complex.h>
+	<complex>
+	<complex.h>
+
+1406943136 e:\compilers\library\mathgl-2.3\include\mgl2\config.h
+
+1390363035 e:\compilers\library\mathgl-2.3\include\mgl2\dllexport.h
+
+1406923997 e:\compilers\library\mathgl-2.3\include\mgl2\type.h
+	"mgl2/define.h"
+
+1059124702 e:\compilers\library\gnuwin32\include\gsl\gsl_vector.h
+	<gsl/gsl_vector_complex_long_double.h>
+	<gsl/gsl_vector_complex_double.h>
+	<gsl/gsl_vector_complex_float.h>
+	<gsl/gsl_vector_long_double.h>
+	<gsl/gsl_vector_double.h>
+	<gsl/gsl_vector_float.h>
+	<gsl/gsl_vector_ulong.h>
+	<gsl/gsl_vector_long.h>
+	<gsl/gsl_vector_uint.h>
+	<gsl/gsl_vector_int.h>
+	<gsl/gsl_vector_ushort.h>
+	<gsl/gsl_vector_short.h>
+	<gsl/gsl_vector_uchar.h>
+	<gsl/gsl_vector_char.h>
+
+1152001208 e:\compilers\library\gnuwin32\include\gsl\gsl_vector_complex_long_double.h
+	<stdlib.h>
+	<gsl/gsl_types.h>
+	<gsl/gsl_errno.h>
+	<gsl/gsl_complex.h>
+	<gsl/gsl_check_range.h>
+	<gsl/gsl_vector_long_double.h>
+	<gsl/gsl_vector_complex.h>
+	<gsl/gsl_block_complex_long_double.h>
+
+1152000926 e:\compilers\library\gnuwin32\include\gsl\gsl_types.h
+
+1151997000 e:\compilers\library\gnuwin32\include\gsl\gsl_errno.h
+	<stdio.h>
+	<errno.h>
+	<gsl/gsl_types.h>
+
+1119770734 e:\compilers\library\gnuwin32\include\gsl\gsl_complex.h
+
+1119770734 e:\compilers\library\gnuwin32\include\gsl\gsl_check_range.h
+	<stdlib.h>
+	<gsl/gsl_types.h>
+
+1152001386 e:\compilers\library\gnuwin32\include\gsl\gsl_vector_long_double.h
+	<stdlib.h>
+	<gsl/gsl_types.h>
+	<gsl/gsl_errno.h>
+	<gsl/gsl_check_range.h>
+	<gsl/gsl_block_long_double.h>
+
+1151995950 e:\compilers\library\gnuwin32\include\gsl\gsl_block_long_double.h
+	<stdlib.h>
+	<gsl/gsl_errno.h>
+	<gsl/gsl_types.h>
+
+1059124702 e:\compilers\library\gnuwin32\include\gsl\gsl_vector_complex.h
+
+1151991894 e:\compilers\library\gnuwin32\include\gsl\gsl_block_complex_long_double.h
+	<stdlib.h>
+	<gsl/gsl_errno.h>
+	<gsl/gsl_types.h>
+
+1152001094 e:\compilers\library\gnuwin32\include\gsl\gsl_vector_complex_double.h
+	<stdlib.h>
+	<gsl/gsl_types.h>
+	<gsl/gsl_errno.h>
+	<gsl/gsl_complex.h>
+	<gsl/gsl_check_range.h>
+	<gsl/gsl_vector_double.h>
+	<gsl/gsl_vector_complex.h>
+	<gsl/gsl_block_complex_double.h>
+
+1152001240 e:\compilers\library\gnuwin32\include\gsl\gsl_vector_double.h
+	<stdlib.h>
+	<gsl/gsl_types.h>
+	<gsl/gsl_errno.h>
+	<gsl/gsl_check_range.h>
+	<gsl/gsl_block_double.h>
+
+1151995852 e:\compilers\library\gnuwin32\include\gsl\gsl_block_double.h
+	<stdlib.h>
+	<gsl/gsl_errno.h>
+	<gsl/gsl_types.h>
+
+1151991864 e:\compilers\library\gnuwin32\include\gsl\gsl_block_complex_double.h
+	<stdlib.h>
+	<gsl/gsl_errno.h>
+	<gsl/gsl_types.h>
+
+1152001162 e:\compilers\library\gnuwin32\include\gsl\gsl_vector_complex_float.h
+	<stdlib.h>
+	<gsl/gsl_types.h>
+	<gsl/gsl_errno.h>
+	<gsl/gsl_complex.h>
+	<gsl/gsl_check_range.h>
+	<gsl/gsl_vector_float.h>
+	<gsl/gsl_vector_complex.h>
+	<gsl/gsl_block_complex_float.h>
+
+1152001286 e:\compilers\library\gnuwin32\include\gsl\gsl_vector_float.h
+	<stdlib.h>
+	<gsl/gsl_types.h>
+	<gsl/gsl_errno.h>
+	<gsl/gsl_check_range.h>
+	<gsl/gsl_block_float.h>
+
+1151995866 e:\compilers\library\gnuwin32\include\gsl\gsl_block_float.h
+	<stdlib.h>
+	<gsl/gsl_errno.h>
+	<gsl/gsl_types.h>
+
+1151991884 e:\compilers\library\gnuwin32\include\gsl\gsl_block_complex_float.h
+	<stdlib.h>
+	<gsl/gsl_errno.h>
+	<gsl/gsl_types.h>
+
+1152001518 e:\compilers\library\gnuwin32\include\gsl\gsl_vector_ulong.h
+	<stdlib.h>
+	<gsl/gsl_types.h>
+	<gsl/gsl_errno.h>
+	<gsl/gsl_check_range.h>
+	<gsl/gsl_block_ulong.h>
+
+1151996054 e:\compilers\library\gnuwin32\include\gsl\gsl_block_ulong.h
+	<stdlib.h>
+	<gsl/gsl_errno.h>
+	<gsl/gsl_types.h>
+
+1152001356 e:\compilers\library\gnuwin32\include\gsl\gsl_vector_long.h
+	<stdlib.h>
+	<gsl/gsl_types.h>
+	<gsl/gsl_errno.h>
+	<gsl/gsl_check_range.h>
+	<gsl/gsl_block_long.h>
+
+1151995940 e:\compilers\library\gnuwin32\include\gsl\gsl_block_long.h
+	<stdlib.h>
+	<gsl/gsl_errno.h>
+	<gsl/gsl_types.h>
+
+1152001480 e:\compilers\library\gnuwin32\include\gsl\gsl_vector_uint.h
+	<stdlib.h>
+	<gsl/gsl_types.h>
+	<gsl/gsl_errno.h>
+	<gsl/gsl_check_range.h>
+	<gsl/gsl_block_uint.h>
+
+1151996042 e:\compilers\library\gnuwin32\include\gsl\gsl_block_uint.h
+	<stdlib.h>
+	<gsl/gsl_errno.h>
+	<gsl/gsl_types.h>
+
+1152001322 e:\compilers\library\gnuwin32\include\gsl\gsl_vector_int.h
+	<stdlib.h>
+	<gsl/gsl_types.h>
+	<gsl/gsl_errno.h>
+	<gsl/gsl_check_range.h>
+	<gsl/gsl_block_int.h>
+
+1151995930 e:\compilers\library\gnuwin32\include\gsl\gsl_block_int.h
+	<stdlib.h>
+	<gsl/gsl_errno.h>
+	<gsl/gsl_types.h>
+
+1152001552 e:\compilers\library\gnuwin32\include\gsl\gsl_vector_ushort.h
+	<stdlib.h>
+	<gsl/gsl_types.h>
+	<gsl/gsl_errno.h>
+	<gsl/gsl_check_range.h>
+	<gsl/gsl_block_ushort.h>
+
+1151996402 e:\compilers\library\gnuwin32\include\gsl\gsl_block_ushort.h
+	<stdlib.h>
+	<gsl/gsl_errno.h>
+	<gsl/gsl_types.h>
+
+1152001418 e:\compilers\library\gnuwin32\include\gsl\gsl_vector_short.h
+	<stdlib.h>
+	<gsl/gsl_types.h>
+	<gsl/gsl_errno.h>
+	<gsl/gsl_check_range.h>
+	<gsl/gsl_block_short.h>
+
+1151996006 e:\compilers\library\gnuwin32\include\gsl\gsl_block_short.h
+	<stdlib.h>
+	<gsl/gsl_errno.h>
+	<gsl/gsl_types.h>
+
+1152001448 e:\compilers\library\gnuwin32\include\gsl\gsl_vector_uchar.h
+	<stdlib.h>
+	<gsl/gsl_types.h>
+	<gsl/gsl_errno.h>
+	<gsl/gsl_check_range.h>
+	<gsl/gsl_block_uchar.h>
+
+1151996036 e:\compilers\library\gnuwin32\include\gsl\gsl_block_uchar.h
+	<stdlib.h>
+	<gsl/gsl_errno.h>
+	<gsl/gsl_types.h>
+
+1152000988 e:\compilers\library\gnuwin32\include\gsl\gsl_vector_char.h
+	<stdlib.h>
+	<gsl/gsl_types.h>
+	<gsl/gsl_errno.h>
+	<gsl/gsl_check_range.h>
+	<gsl/gsl_block_char.h>
+
+1151991854 e:\compilers\library\gnuwin32\include\gsl\gsl_block_char.h
+	<stdlib.h>
+	<gsl/gsl_errno.h>
+	<gsl/gsl_types.h>
+
+1059124700 e:\compilers\library\gnuwin32\include\gsl\gsl_matrix.h
+	<gsl/gsl_matrix_complex_long_double.h>
+	<gsl/gsl_matrix_complex_double.h>
+	<gsl/gsl_matrix_complex_float.h>
+	<gsl/gsl_matrix_long_double.h>
+	<gsl/gsl_matrix_double.h>
+	<gsl/gsl_matrix_float.h>
+	<gsl/gsl_matrix_ulong.h>
+	<gsl/gsl_matrix_long.h>
+	<gsl/gsl_matrix_uint.h>
+	<gsl/gsl_matrix_int.h>
+	<gsl/gsl_matrix_ushort.h>
+	<gsl/gsl_matrix_short.h>
+	<gsl/gsl_matrix_uchar.h>
+	<gsl/gsl_matrix_char.h>
+
+1151998580 e:\compilers\library\gnuwin32\include\gsl\gsl_matrix_complex_long_double.h
+	<stdlib.h>
+	<gsl/gsl_types.h>
+	<gsl/gsl_errno.h>
+	<gsl/gsl_complex.h>
+	<gsl/gsl_check_range.h>
+	<gsl/gsl_vector_complex_long_double.h>
+
+1151998266 e:\compilers\library\gnuwin32\include\gsl\gsl_matrix_complex_double.h
+	<stdlib.h>
+	<gsl/gsl_types.h>
+	<gsl/gsl_errno.h>
+	<gsl/gsl_complex.h>
+	<gsl/gsl_check_range.h>
+	<gsl/gsl_vector_complex_double.h>
+
+1151998394 e:\compilers\library\gnuwin32\include\gsl\gsl_matrix_complex_float.h
+	<stdlib.h>
+	<gsl/gsl_types.h>
+	<gsl/gsl_errno.h>
+	<gsl/gsl_complex.h>
+	<gsl/gsl_check_range.h>
+	<gsl/gsl_vector_complex_float.h>
+
+1151999164 e:\compilers\library\gnuwin32\include\gsl\gsl_matrix_long_double.h
+	<stdlib.h>
+	<gsl/gsl_types.h>
+	<gsl/gsl_errno.h>
+	<gsl/gsl_check_range.h>
+	<gsl/gsl_vector_long_double.h>
+
+1151998682 e:\compilers\library\gnuwin32\include\gsl\gsl_matrix_double.h
+	<stdlib.h>
+	<gsl/gsl_types.h>
+	<gsl/gsl_errno.h>
+	<gsl/gsl_check_range.h>
+	<gsl/gsl_vector_double.h>
+
+1151998830 e:\compilers\library\gnuwin32\include\gsl\gsl_matrix_float.h
+	<stdlib.h>
+	<gsl/gsl_types.h>
+	<gsl/gsl_errno.h>
+	<gsl/gsl_check_range.h>
+	<gsl/gsl_vector_float.h>
+
+1151999592 e:\compilers\library\gnuwin32\include\gsl\gsl_matrix_ulong.h
+	<stdlib.h>
+	<gsl/gsl_types.h>
+	<gsl/gsl_errno.h>
+	<gsl/gsl_check_range.h>
+	<gsl/gsl_vector_ulong.h>
+
+1151999050 e:\compilers\library\gnuwin32\include\gsl\gsl_matrix_long.h
+	<stdlib.h>
+	<gsl/gsl_types.h>
+	<gsl/gsl_errno.h>
+	<gsl/gsl_check_range.h>
+	<gsl/gsl_vector_long.h>
+
+1151999498 e:\compilers\library\gnuwin32\include\gsl\gsl_matrix_uint.h
+	<stdlib.h>
+	<gsl/gsl_types.h>
+	<gsl/gsl_errno.h>
+	<gsl/gsl_check_range.h>
+	<gsl/gsl_vector_uint.h>
+
+1151998964 e:\compilers\library\gnuwin32\include\gsl\gsl_matrix_int.h
+	<stdlib.h>
+	<gsl/gsl_types.h>
+	<gsl/gsl_errno.h>
+	<gsl/gsl_check_range.h>
+	<gsl/gsl_vector_int.h>
+
+1151999696 e:\compilers\library\gnuwin32\include\gsl\gsl_matrix_ushort.h
+	<stdlib.h>
+	<gsl/gsl_types.h>
+	<gsl/gsl_errno.h>
+	<gsl/gsl_check_range.h>
+	<gsl/gsl_vector_ushort.h>
+
+1151999276 e:\compilers\library\gnuwin32\include\gsl\gsl_matrix_short.h
+	<stdlib.h>
+	<gsl/gsl_types.h>
+	<gsl/gsl_errno.h>
+	<gsl/gsl_check_range.h>
+	<gsl/gsl_vector_short.h>
+
+1151999386 e:\compilers\library\gnuwin32\include\gsl\gsl_matrix_uchar.h
+	<stdlib.h>
+	<gsl/gsl_types.h>
+	<gsl/gsl_errno.h>
+	<gsl/gsl_check_range.h>
+	<gsl/gsl_vector_uchar.h>
+
+1151998146 e:\compilers\library\gnuwin32\include\gsl\gsl_matrix_char.h
+	<stdlib.h>
+	<gsl/gsl_types.h>
+	<gsl/gsl_errno.h>
+	<gsl/gsl_check_range.h>
+	<gsl/gsl_vector_char.h>
+
+1406923997 e:\compilers\library\mathgl-2.3\include\mgl2\pde.h
+	"mgl2/abstract.h"
+
+1407406670 e:\compilers\library\mathgl-2.3\include\mgl2\datac.h
+	"mgl2/data.h"
+	"mgl2/datac_cf.h"
+	<vector>
+	<string>
+
+1406923997 e:\compilers\library\mathgl-2.3\include\mgl2\datac_cf.h
+	"mgl2/abstract.h"
+	<gsl/gsl_vector.h>
+	<gsl/gsl_matrix.h>
+
+1406923997 e:\compilers\library\mathgl-2.3\include\mgl2\base_cf.h
+	"mgl2/abstract.h"
+
+1390362738 e:\compilers\library\mathgl-2.3\include\mgl2\cont.h
+	"mgl2/abstract.h"
+
+1406923997 e:\compilers\library\mathgl-2.3\include\mgl2\fit.h
+	"mgl2/abstract.h"
+
+1393875138 e:\compilers\library\mathgl-2.3\include\mgl2\plot.h
+	"mgl2/abstract.h"
+
+1390362738 e:\compilers\library\mathgl-2.3\include\mgl2\surf.h
+	"mgl2/abstract.h"
+
+1390362738 e:\compilers\library\mathgl-2.3\include\mgl2\volume.h
+	"mgl2/abstract.h"
+
+1390362738 e:\compilers\library\mathgl-2.3\include\mgl2\vect.h
+	"mgl2/abstract.h"
+
+1406923997 e:\compilers\library\mathgl-2.3\include\mgl2\prim.h
+	"mgl2/abstract.h"
+
+1406923997 e:\compilers\library\mathgl-2.3\include\mgl2\other.h
+	"mgl2/abstract.h"
+
+1407406670 e:\compilers\library\mathgl-2.3\include\mgl2\canvas_cf.h
+	"mgl2/abstract.h"
+
+1406923997 e:\compilers\library\mathgl-2.3\include\mgl2\addon.h
+	"mgl2/define.h"
+
+1415859135 source:e:\all\c++\lab3_for_mm_in_pmt\src\pde.cpp
+	"pde.h"
+
+1415684271 e:\all\c++\lab3_for_mm_in_pmt\include\\pde.h
+	<math.h>
+
