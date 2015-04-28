@@ -2,3 +2,7 @@
 *.o
 *.exe
 *.d
+*.depend
+*.layout
+*.dat
+*.gp
