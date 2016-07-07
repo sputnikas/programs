@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="lennard_jonson" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="gas">
+				<Option output="bin/lennard_jonson" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2 -std=c++11" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="count">
+				<Option output="bin/count" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2 -std=c++11" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="../../../../Compilers/Library/freeglut-3.0.0/include" />
+		</Compiler>
+		<Linker>
+			<Add library="freeglut" />
+			<Add library="opengl32" />
+			<Add library="glu32" />
+			<Add directory="../../../../Compilers/Library/freeglut-3.0.0/lib" />
+		</Linker>
+		<Unit filename="count.cpp">
+			<Option target="count" />
+		</Unit>
+		<Unit filename="main.cpp">
+			<Option target="gas" />
+		</Unit>
+		<Unit filename="main.h" />
+		<Unit filename="math_algorithms.h" />
+		<Unit filename="particle.h" />
+		<Unit filename="vector.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
