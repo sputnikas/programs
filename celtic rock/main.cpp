@@ -191,12 +191,12 @@ void reshape(int width, int height) {
     glRotatef(angle_y, 0.0, 1.0, 0.0);         // а затем на 70 градусов вокруг оси y
 }
 
-void mouse_pressed_move(int x, int y) {
+void mousePressedMove(int x, int y) {
     angle_y = (x - x_origin) / gl_width * 360;
     angle_x = (y - y_origin) / gl_width * 360;
 }
 
-void mouse_button(int button, int state, int x, int y) {
+void mouseButton(int button, int state, int x, int y) {
     switch (button) {
     case MOUSE_LEFT_BUTTON:
         if (state == GLUT_DOWN) {
@@ -209,12 +209,26 @@ void mouse_button(int button, int state, int x, int y) {
     case MOUSE_RIGHT_BUTTON:
         break;
     case MOUSE_SCROLL_UP:
-        scale += 0.1*scale;
+        scale *= 1.1;
         break;
     case MOUSE_SCROLL_DOWN:
-        scale -= 0.1*scale;
+        scale /= 1.1;
         break;
     }
+}
+
+void keyboard(unsigned char key, int x, int y) {
+    switch(key) {
+        case '+':
+            scale *= 1.1;
+            break;
+        case '-':
+            scale /= 1.1;
+            break;
+        default:
+            break;
+    }
+    glutPostRedisplay();
 }
 
 int main(int argc, char** argv) {
@@ -269,8 +283,9 @@ int main(int argc, char** argv) {
     glMaterialfv(GL_FRONT, GL_SHININESS, high_shininess);
 
     glutTimerFunc(100, timer, 0);
-    glutMouseFunc(mouse_button);
-	glutMotionFunc(mouse_pressed_move);
+    glutMouseFunc(mouseButton);
+	glutMotionFunc(mousePressedMove);
+	glutKeyboardFunc(keyboard);
     glutDisplayFunc(display);
     glutReshapeFunc(reshape);
     glutMainLoop();
