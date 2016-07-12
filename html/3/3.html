@@ -1,0 +1,111 @@
+<html>
+
+<head>
+	<title>Столкновения шаров</title>
+	<link rel="stylesheet" type="text/css" href="3.css">
+	<script type="text/javascript" src="3.js"></script>
+	<script type="text/javascript" src="vector.js"></script>
+	<script type="text/x-mathjax-config">
+		MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+	</script>
+	<script type="text/javascript"
+		src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+	</script>
+</head>
+
+<body>
+	
+	<div class="tabs">
+		<input id="tab1" type="radio" name="tabs" style="display:none" checked>
+		<label for="tab1" title="Вкладка 1" style="width: 100px">2 шара</label>
+
+		<input id="tab2" type="radio" name="tabs" style="display:none">
+		<label for="tab2" title="Вкладка 2" style="width: 100px">Вкладка 2</label>
+
+		<input id="tab3" type="radio" name="tabs" style="display:none">
+		<label for="tab3" title="Вкладка 3" style="width: 100px">Вкладка 3</label>
+
+		<input id="tab4" type="radio" name="tabs" style="display:none">
+		<label for="tab4" title="Вкладка 4" style="width: 100px">Вкладка 4</label>
+
+		<section id="content1">
+			<canvas id="canvas">Обновите браузер</canvas>
+			
+			<form name="data1">
+				<table cellspacing="0" cellpadding="4">
+				<tr><td> 1 шар </td></tr>
+				<tr>
+				<td align="right">$x$</td>
+				<td align="right"><input type="text" size="8" name="x1" value="100"></td>
+				<td align="right">$y$</td>
+				<td align="right"><input type="text" size="8" name="y1" value="200"></td>
+				</tr>
+				<tr>
+				<td align="right">$v_x$</td>
+				<td align="right"><input type="text" size="8" name="vx1" value="5"></td>
+				<td align="right">$v_y$</td>
+				<td align="right"><input type="text" size="8" name="vy1" value="0"></td>
+				</tr>
+				<tr>
+				<td align="right">$m$</td>
+				<td align="right"><input type="text" size="8" name="m1" value="1"></td>
+				</tr>
+				<tr>
+				<td align="right">$R$</td>
+				<td align="right"><input type="text" size="8" name="R1" value="30"></td>
+				</tr>
+				<tr><td> 2 шар </td></tr>
+				<tr>
+				<td align="right">$x$</td>
+				<td align="right"><input type="text" size="8" name="x2" value="500"></td>
+				<td align="right">$y$</td>
+				<td align="right"><input type="text" size="8" name="y2" value="220"></td>
+				</tr>
+				<tr>
+				<td align="right">$v_x$</td>
+				<td align="right"><input type="text" size="8" name="vx2" value="-5"></td>
+				<td align="right">$v_y$</td>
+				<td align="right"><input type="text" size="8" name="vy2" value="0"></td>
+				</tr>
+				<tr>
+				<td align="right">$m$</td>
+				<td align="right"><input type="text" size="8" name="m2" value="1"></td>
+				</tr>
+				<tr>
+				<td align="right">$R$</td>
+				<td align="right"><input type="text" size="8" name="R2" value="30"></td>
+				</tr>
+				<tr>
+				<tr>
+				<td align="right">$\Delta t$</td>
+				<td align="right"><input type="text" size="8" name="dt" value="30"></td>
+				</tr>
+				<tr>
+				<td><input type="button" name="button1" value="Рассчитать" onClick="beginDrawing(data1);"></td>
+				<td><input type="button" name="button2" value="Стоп" onClick="stopDrawing(data1);" style="width: 100px">
+				<input type="button" name="button3" value="Продолжить" onClick="continueDrawing(data1);" style="display:none; width: 100px"></td>
+				</tr>
+				<tr>
+				<td align="right">Energy</td>
+				<td align="right"><input type="text" size="8" name="result"></td>
+				</tr>
+				</table>
+			</form>
+		</section>  
+		<section id="content2">
+			<p>
+			  Здесь размещаете любое содержание....
+			</p>
+		</section> 
+		<section id="content3">
+			<p>
+			  Здесь размещаете любое содержание....
+			</p>
+		</section> 
+		<section id="content4">
+			
+		</section>    
+	</div>
+</body>
+
+</html>

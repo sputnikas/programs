@@ -1,0 +1,51 @@
+﻿<html>
+	<head>
+		<title>1 скрипт</title>
+		<link rel="stylesheet" type="text/css" href="1.css">
+		<script type="text/javascript" src="1.js"></script>
+		<script language="javascript">
+		document.write("Моя первая страница.");
+		</script>
+	</head>
+	<body>
+		<form name="forma1">
+			Введите длину прямоугольника <input type="text" name="t1" size="10"><br><br>
+			Введите ширину прямоугольника <input type="text" name="t2" size="10"><br><br>
+			<input type="button" name="button" value="Вычислить" onClick="areaRectangle(forma1);"><br><br>
+			Площадь прямоугольника равна <input type="text" name="res" size="10">
+			
+			<table><tr>
+				<td><div id="red" onClick="message('Вы щелкнули по красному квадратику');"></div></td>
+				<td><div id="green" onClick="message('Вы щелкнули по зеленому квадратику');"></div></td>
+				<td><div id="blue" onClick="message('Вы щелкнули по синему квадратику');"></div></td>
+			</tr></table>
+		</form>
+		<form name="forma2">
+			<textarea name="desc" cols=45 rows=4></textarea>
+		</form>
+		<ul>
+			<li onMouseOver="showDesc(forma2,'Малина обыкновенная — кустарник с многолетним корневищем,'+
+				' из которого развиваются двухгодичные надземные стебли высотой до полутора метров.');"
+				onMouseOut="delet(forma2);">Малина</li>
+				
+			<li onMouseOver="showDesc(forma2,'Черника — кустарничек высотой 15—30 см. Ветви отходят'+
+				' от главного стволика под острыми углами.');"
+				onMouseOut="delet(forma2);">Черника</li>
+
+			<li onMouseOver="showDesc(forma2,'Ежевика — название нескольких видов растений из рода Rubus'+
+				' семейства Розовые.');"
+				onMouseOut="delet(forma2);">Ежевика</li>
+		</ul>
+		
+		<form name="forma3">
+			Сторона 1 <input type="text" size="8" maxlength="8" name="st1">
+			Сторона 2 <input type="text" size="8" maxlength="8" name="st2">
+			Сторона 3 <input type="text" size="8" maxlength="8" name="st3"><br><br>
+			<input type="button" value="Вычислить" onClick="areaOfTriangle(forma3);">
+			<input type="reset" value="Отменить">
+			Результат <input type="text" size="8" maxlength="8" name="res">
+		</form> 
+		
+		<img src="images/Идзанами и идзанаги.jpg" name="jgod" width="300" onMouseOver="resize(jgod)" onMouseOut="repair(jgod)">
+	</body>
+</html>
