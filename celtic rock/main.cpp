@@ -264,8 +264,8 @@ int main(int argc, char** argv) {
     glClearColor(0.2f, 0.5f, 0.75f, 1.0f);
 
     glClearDepth(1.0f);
-    glEnable(GL_DEPTH_TEST);
-    glDepthFunc(GL_LESS);
+    //glEnable(GL_DEPTH_TEST);
+    //glDepthFunc(GL_LESS);
 
     glEnable(GL_LIGHT0);
     glEnable(GL_NORMALIZE);
